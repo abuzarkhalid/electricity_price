@@ -639,7 +639,7 @@ elif(val1 == 1):
     val2 = input("What is your yearly electricty demand in (MWh/y)? ")
     val2 = float(val2)
     
-
+# output pf the main function
 price = calculate_mean_price_household(val1,val2)
 price = float(price)
 fixed_rate_values = {"base_price": 0, "power_price": 0, "energy_price": price}
